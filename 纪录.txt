@@ -1,0 +1,14 @@
+1.如何把.jar文件引入android项目中
+http://jingyan.baidu.com/article/e75057f2fc62f0ebc81a8961.html
+2.如何使用volley.jar框架实现安卓网络通信
+http://blog.csdn.net/guolin_blog/article/details/17482095/
+3.登入代码
+http://www.2cto.com/kf/201402/278147.html
+4.注意归纳关于handler以及新线程何时改使用
+5.注意归纳checbox如何动态添加以及实现监控
+6.checkbox与json实现数据发送至服务端
+7.实现二维码扫描
+8.实现表数据动态更新
+9.实现按钮响应的两种方法
+10.实现数据通信的函数请注意po资源以及部分解释
+11.关于android与服务器实现通信的条件（同wifi下即同一局域网内）
