@@ -12,3 +12,17 @@ http://www.2cto.com/kf/201402/278147.html
 9.实现按钮响应的两种方法
 10.实现数据通信的函数请注意po资源以及部分解释
 11.关于android与服务器实现通信的条件（同wifi下即同一局域网内）
+
+一个bug
+else if(data1.getString("status").equals("willbesaved")) {
+tv = new TextView(AddInfo.this);
+int kk=i+1;
+tv.setText(kk + “”);//直接用＋＋i发现显示时只显示单数，原来默认增加了1
+tv.setBackgroundResource(R.drawable.table_textview);
+tv.setGravity(Gravity.CENTER);
+lp1.setMargins(5, 5, 5, 5);
+tv.setLayoutParams(lp1);
+tableRow.addView(tv);
+}
+
+[1]仓储指数  http://news.hexun.com/2017-01-24/187922871.html
